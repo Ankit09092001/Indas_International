@@ -74,6 +74,9 @@ function Landing_page() {
           <a href="https://www.linkedin.com/company/indas-international/">
             <i class="fa-brands fa-linkedin"></i>
           </a>
+          <a href = "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqVwxQnznRfVBCNPhlqZjNFdRhMsntSVzRBfQSfXzgLLztplHKbMDfFwbJcdRqmMFGvMbq" target="_blank" rel="noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+          </a>
         </div>
         {/* <form action="response.html" method="get">
                <input type="email" autocomplete="on" placeholder="Enter e-mail" required />
