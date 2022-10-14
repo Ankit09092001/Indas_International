@@ -56,14 +56,14 @@ function Landing_page() {
       <div className="Landing">
         <img className="Logo" src={logo} alt="logo" />
         <h1>Coming Soon</h1>
-        <h3>We are getting ready for the Launch</h3>
+        <h3 class="font_h3">We are getting ready for the Launch</h3>
         <p>
           We are working hard to give you a better experience.
           <br />
           We promise, it will be worth the wait!
         </p>
 
-        <h3>Get Notified When We Go Live</h3>
+        <h3 class="font_h3">Get Notified When We Go Live</h3>
         <div className="icons">
           <a href="https://www.facebook.com/Indas-International-100617009318760/">
             <i class="fa-brands fa-facebook"></i>
@@ -88,7 +88,7 @@ function Landing_page() {
               <Form.Control
                 type="email"
                 name="email"
-                placeholder="Enter e-mail"
+                placeholder="Enter E-mail"
                 required
               />
             </Form.Group>
