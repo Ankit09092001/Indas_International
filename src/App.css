@@ -1,0 +1,98 @@
+.App{
+  height: 100%;
+}
+
+.Landing{
+  background-image: url("landing.jpg");
+  color: white;
+  /* height: 89.8vh; */
+ height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px;
+  padding-top: 1px;
+  padding-left: 10vw;
+  padding-top: 10vh;
+  /* padding-top: 5vh; */
+}
+
+/* Element | http://localhost:3000/ */
+
+.Landing > h1:nth-child(2) {
+  padding-top: 22px;
+  padding-bottom: 20px;
+  font-size: 7vh;
+}
+
+/* Element | http://localhost:3000/ */
+
+.Landing > h3:nth-child(3) {
+  padding-bottom: 15px;
+}
+
+.p{
+  height: 100%;
+}
+h3{
+ 
+  font-size: x-large;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+}
+p{
+  font-family: 'Martel', serif;
+  font-size: large;
+  
+  
+}
+.Logo{
+  width: 40%;
+  height: 20%;
+  position: relative;
+  right: 7vw;
+  
+  
+}
+.formss{
+  width:25vw;
+}
+
+.icons{
+  /* position: absolute;
+  left: 7%;
+  top: 40%;
+  display: flex;
+  flex-direction: column; */
+  position: absolute;
+  /* top: 82%; */
+  left: 20%;
+bottom:12vh;
+  
+}
+
+i{
+  font-size: 35px;
+}
+
+.fa-facebook{
+  color:  #24a0ed;
+  padding-right: 10px;
+}
+.fa-facebook:hover{
+color:red;
+}
+.fa-instagram{
+  color: #c4328a;
+  padding-right: 10px;
+}
+.fa-instagram:hover{
+  color:red;
+  }
+.fa-linkedin{
+  color: rgb(17, 233, 225);
+}
+.fa-linkedin:hover{
+  color:red;
+  }
