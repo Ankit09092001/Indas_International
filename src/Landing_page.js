@@ -62,22 +62,21 @@ function Landing_page() {
           <br />
           We promise, it will be worth the wait!
         </p>
+        <p>
+          For Enquiry,
+          <br />
+          Mail us: <a
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqVwxQnznRfVBCNPhlqZjNFdRhMsntSVzRBfQSfXzgLLztplHKbMDfFwbJcdRqmMFGvMbq"
+            target="_blank"
+            rel="noreferrer"
+            style={{display: 'inline'}}
+          >
+          Sales@indasinternational.com
+          </a>
+        </p>
 
         <h3 class="font_h3">Get Notified When We Go Live</h3>
-        <div className="icons">
-          <a href="https://www.facebook.com/Indas-International-100617009318760/">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a href="https://www.instagram.com/indasinternational/">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/indas-international/">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href = "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqVwxQnznRfVBCNPhlqZjNFdRhMsntSVzRBfQSfXzgLLztplHKbMDfFwbJcdRqmMFGvMbq" target="_blank" rel="noreferrer">
-          <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div>
+
         {/* <form action="response.html" method="get">
                <input type="email" autocomplete="on" placeholder="Enter e-mail" required />
                <input type="submit" value="Get Notified" />
@@ -94,6 +93,28 @@ function Landing_page() {
             </Form.Group>
             <Button type="submit">Subscribe</Button>
           </Form>
+        </div>
+        <div className="icons">
+          <a href="https://www.facebook.com/Indas-International-100617009318760/" style={{display: 'inline'}}>
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <br />
+          <a href="https://www.instagram.com/indasinternational/" style={{display: 'inline'}}>
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <br />
+          <a href="https://www.linkedin.com/company/indas-international/" style={{display: 'inline'}}>
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <br />
+          <a
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqVwxQnznRfVBCNPhlqZjNFdRhMsntSVzRBfQSfXzgLLztplHKbMDfFwbJcdRqmMFGvMbq"
+            target="_blank"
+            rel="noreferrer"
+            style={{display: 'inline'}}
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
         </div>
       </div>
     </div>
